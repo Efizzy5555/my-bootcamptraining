@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color:aquamarine;
+    justify-content: space-evenly;
+    /* align-items: flex-end; */
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid red;
+    margin-right: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

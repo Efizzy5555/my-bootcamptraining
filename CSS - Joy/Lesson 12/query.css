@@ -1,0 +1,48 @@
+body{
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+@media (max-width: 480px) {
+    body{
+        background-color: #ccf2ff;
+    }
+}
+
+.button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px){
+    .button{
+        background-color: #e83e8c;
+    }
+}
+
+@media (max-width: 480px){
+    .button{
+        background-color: #ffc107;
+    }
+}
+
+.text{
+    font-size: 50px;
+    color: #333;
+}
+
+@media (max-width: 768px){
+    .text{
+        color: #e74c3c;
+        font-size: 10px;
+    }
+}

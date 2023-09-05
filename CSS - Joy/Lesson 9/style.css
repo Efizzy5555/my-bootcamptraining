@@ -1,0 +1,109 @@
+/* .div1{
+    display: flex;
+    display: ;
+}
+#corners1{
+    background-image: linear-gradient(to top right, blue,black, white, red);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#corners2{
+    background-image: radial-gradient(green,purple,pink,orange);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#corners3{
+    background-image: conic-gradient(black,red,brown);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin:10px
+} */
+.div2{
+    border-radius: 10px;
+    padding: 10px;
+}
+#b1{
+    float: left;
+    position: relative;
+    background-image:radial-gradient(rgb(45,114,204),silver, rgb(34,127,189));
+    margin: 20px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+}
+.p1{
+    position: absolute;
+    top: 130px;
+    left: 3;
+    background: transparent;
+
+}
+#img{
+    border-radius: 10rem;
+    float: left;
+    margin: 10px;
+}
+.h3{
+    color: aliceblue;
+    float: left;
+}
+#b2{
+    float: left;
+}
+h1{
+    font-size: 1.5rem;
+}
+.p2{
+    width: 15rem;
+    border-radius: 10px;
+}
+.c1{
+    float: left;
+}
+.c2{
+    float: right;
+}
+.p3{
+    margin-top: 10rem;
+}
+.c3{
+    float: left;
+}
+.c4{
+    float: right;
+}
+/* .div3{
+    margin: 10px;
+    background-color: rgb(63, 10, 10);
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    padding: 5px;
+} */
+/* #left{
+    float: left;
+    width: 200px;
+}
+#right{
+    float: right;
+    width: 200px;
+}
+
+#b2{
+    background-image:radial-gradient(rgb(45,114, 204), silver, rgb(34, 127,189));
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+}
+#b3{
+    background-image: radial-gradient(rgb(45,114,204), silver, rgb(34,127,189));
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+} */

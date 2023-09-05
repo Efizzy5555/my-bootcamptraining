@@ -1,0 +1,10 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: aqua;
+    overflow: auto;
+    display: inline-flex;
+    list-style-type: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,95 @@
+#main{
+    transition: margin-right .5s;
+    padding: 20px;
+}
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: #04aa60;
+    color: whitesmoke;
+}
+.topnav a:active{
+    background-color: #04AA6d;
+    color: white;
+}
+.topnav .icon{
+    display: none;
+}
+aside{
+    width: 50%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightslategray;
+    display: block;
+}
+.hero{
+    background-color: purple;
+    height: 15rem;
+    text-align: center;
+    padding: 5px;
+    color: whitesmoke;
+    padding-top:5%;
+    font-size: 25px;
+}
+.midsec{
+    margin-bottom: 2%;
+}
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: #333;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    padding: 8%;
+}
+
+.section2{
+    width: 50%;
+    margin-bottom: 2%;
+}
+.section2 img{
+    width: 300%;
+}
+
+.column h1{
+    width: 90%;
+    margin-left: 50px;
+    padding-bottom: 10%;
+}
+footer{
+    text-align: center;
+}
+ 

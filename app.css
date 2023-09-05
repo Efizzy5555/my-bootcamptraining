@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+  font-size: 20px;
+  background-image: url(img/tech.jpg);
+}
+
+.sidebar-toggle {
+  display: none;
+}
+
+.sidebar-button {
+  background-color: green;
+  height: 7rem;
+  width: 7rem;
+  position:  sticky;
+  top: 6rem;
+  border-radius: 50%;
+  z-index: 2000;
+  box-shadow: 0 1rem 3rem rgba(#000);
+  text-align: center;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+ul li a:hover {
+  background-color: green;
+  color: #000;
+}
+
+ul li ul li {
+  display: none;
+  /* background-color: red; */
+}
+
+ul li:hover ul li {
+  display: block;
+}

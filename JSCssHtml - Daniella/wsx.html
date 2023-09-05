@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="qaz.css">
+     <script src="qaz.js"></script>
+</head>
+<body class="wsx">
+  <style>
+    .wsk{
+      background-color: cyan;
+    }
+  </style>
+     <!-- A button to open the popup form -->
+<button class="open-button" onclick="openForm()">Open Form</button>
+
+<!-- The form -->
+<div class="form-popup" id="myForm">
+  <form  class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required minlength="4" maxlength="8">
+
+    <button type="submit" class="btn">
+      <a href="../individual assignment/pages/index.html">Login</a>
+    </button>
+    <button type="button" class="btn cancel" onclick="closeForm()"><a href="wsx.html">Close</a></button>
+  </form>
+</div>
+
+
+
+</body>
+</html>

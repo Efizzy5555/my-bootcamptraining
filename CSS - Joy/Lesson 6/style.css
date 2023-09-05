@@ -1,0 +1,78 @@
+.navbar a:hover{
+    background-color: green;
+}
+
+section{
+    background-color: lightblue;
+}
+
+.item1, .item2, .item3{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    background-color: brown;
+    display: inline-flex;
+}
+.item1{
+    top: 10px;
+    padding-right: 50px;
+    background-color: aqua;
+}
+
+.item2{
+    top: 10px;
+    padding-right: 50px;
+    background-color: grey;
+}
+
+.item3{
+    top: 10px;
+    padding-right: 50px;
+    background-color: blue;
+}
+
+.Box1, .Box2, .Box3, .box4{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 50px;
+    background-color: yellowgreen;
+    display: inline-flex;
+}
+.Box1{
+    top: 10px;
+    padding-right: 50px;
+    background-color:gray;
+}
+
+.Box2{
+    top: 10px;
+    padding-right: 50px;
+    background-color: blueviolet;
+}
+
+.Box3{
+    top: 10px;
+    padding-right: 50px;
+    background-color: brown;
+}
+
+.box4{
+    top: 10px;
+    padding-right: 50px;
+    background-color: red;
+}
+
+footer{
+    background-color:brown;
+    padding: 10px;
+    margin-right: 30rem;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+body{
+    
+}
+h2{
+    text-align: center; 
+}
+  
+
+h3{
+    color: white;
+    text-indent: 90px; 
+}
+
+.container{
+    background-color: green;
+    height: 400px;
+    width: 100px;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 150px;
+}
+
+.content{
+    background-color: aliceblue;
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 40px;
+    font-size: small;
+}
+button{
+    color: aliceblue;
+    background-color: blue;
+    font-style: normal;
+    border-color: rgb(22, 24, 122);
+    padding-right: 70px;
+    padding-left: 50px;
+
+}
+p{
+    font-size: small;
+
+}
+a{
+    text-decoration: none;
+}
+

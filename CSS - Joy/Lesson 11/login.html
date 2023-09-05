@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login Form</title>
+        <link rel="stylesheet" href="login.css" />
+    </head>
+    <body>
+      <div class="login">
+        <div class="login-webpage">
+           <div class="login-leftview"></div>
+           <div class="login-rightview">
+             <div class="login-form">
+                <h2 class="login-heading-primary">SignUp for this website</h2>
+                <P class="login-heading-text">when you signup you can shop anything here</P>
+                <form>
+                  <div class="login-indent">
+                    <label for="firstName" class="login-label">First Name</label>
+                    <input 
+                       type="text"
+                       class="login-input"
+                       placeholder="First Name"
+                       autocomplete="off"
+                       required
+                    />
+                  </div>
+                    <div class="login-indent">
+                    <label for="firstName" class="login-label">Last Name</label>
+                    <input 
+                       type="text"
+                       class="login-input"
+                       placeholder="Last Name"
+                       autocomplete="off"
+                       required
+                    />
+                  </div>
+                  <div class="login-indent">
+                    <label for="role" class="login-label">Role</label>
+                    <select class="login-select" name="role" id="Role">
+                      <option value="admin">Admin</option>
+                      <option value="super-admin">Super-Admin</option>
+                      <option value="primary-user">Primary-user</option>
+                    </select>
+                  </div>
+                    <div class="login-indent">
+                    <label for="email" class="login-label">Email</label>
+                    <input 
+                       type="email"
+                       class="login-input"
+                       placeholder="Email"
+                       autocomplete="off"
+                       required
+                    />
+                  </div>
+                    <div class="login-indent">
+                    <label for="username" class="login-label">Username</label>
+                    <input 
+                       type="text"
+                       class="login-input"
+                       placeholder="Username"
+                       autocomplete="off"
+                       required
+                    />
+                  </div>
+                    <div class="login-indent">
+                    <label for="password" class="login-label">Password</label>
+                    <input 
+                       type="password"
+                       class="login-input"
+                       placeholder="Password"
+                       autocomplete="off"
+                       required
+                    />
+                  </div>
+                  <div class="login-btn">
+                     |<button type="button" class="login-button">submit</button>
+                  </div>
+                </form>
+             </div>
+           </div>
+        </div>
+      </div>
+    </body>
+</html>

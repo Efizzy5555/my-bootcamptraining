@@ -1,0 +1,33 @@
+p{
+    color: red;
+}
+main{
+    background-color: rgba(10, 54, 10, 0.4);
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px; 
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;}
+
+a{
+   text-decoration: none; 
+}
+h5{
+    background-color: goldenrod;
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+

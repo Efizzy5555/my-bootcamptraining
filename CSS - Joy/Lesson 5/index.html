@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorials</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> /-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <section class="flex">
+            <a href="#" class="logo"><i class="fas fa-utensils"></i> Torbita</a>
+            <nav class="navbar">
+                <a class="active" href="#home"> Home</a>
+                <a href="#dishes"> dishes</a>
+                <a href="#about"> about</a>
+                <a href="#menu"> menu</a>
+                <a href="#review"> review </a>
+                <a href="#order"> order</a>
+            </nav> 
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div> 
+             
+
+        </section>
+    </header>
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." n ame="" id="search-box">
+        <i class="fas fa-times" id="close"></i> 
+    </form>
+    <div class="container">
+        <section class="home" id="home">
+            <div class="swiper home-slider">
+                <div class="swiper-wrapper">
+                    <div  class="swiper-slide slide">
+                        <div class="content">
+                            <span> our special dish</span>
+                            <h3>Fried Chicken</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nam. Officiis non explicabo nisi exercitationem eum, molestiae voluptatibus 
+                            rem quasi fugit ipsam iure placeat pariatur quis dolorem fugiat dignissimos nesciunt.</p>
+                            <a href="#" class="btn"> order now</a>
+
+                        </div>
+                        <div class="image">
+                            <img src="images/home-img-2.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+        </section>
+
+    </div>
+    
+</body>
+</html>
